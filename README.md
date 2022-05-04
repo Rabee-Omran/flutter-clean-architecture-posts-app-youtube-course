@@ -11,3 +11,9 @@
 ## #3 Initial project , Add and explain required dependencies
 
 * [Video Link](https://www.youtube.com/watch?v=RySFXaF9Wr0&ab_channel=RabeeOmran)
+
+## #4 Create post entity and post repository in domain layer
+
+* [Video Link](https://youtu.be/1YMuNwqA9SY)
+
+
