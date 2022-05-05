@@ -16,4 +16,10 @@
 
 * [Video Link](https://youtu.be/1YMuNwqA9SY)
 
+## #5 Finish posts repository and add all use cases in domain layer
+
+* [Video Link](https://youtu.be/QwSVaNTpdGs)
+
+
+
 
