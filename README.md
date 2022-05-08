@@ -19,10 +19,13 @@
 ## #5 Finish posts repository and add all use cases in domain layer
 
 * [Video Link](https://youtu.be/QwSVaNTpdGs) 
-
+  
 ## #6 Review on domain layer (entities, repositories, use cases)
 
 * [Video Link](https://youtu.be/F7yX12SEMSA)
 
+## #7 Write post model and start implement posts repository in data layer
+
+* [Video Link](https://youtu.be/r1f15aVyJGc)
 
 
