@@ -27,5 +27,7 @@
 ## #7 Write post model and start implement posts repository in data layer
 
 * [Video Link](https://youtu.be/r1f15aVyJGc)
+  
+## #8 Finish posts repository implementation in data layer 
 
-
+* [Video Link](https://youtu.be/4irCLtgiUtM)
