@@ -31,3 +31,8 @@
 ## #8 Finish posts repository implementation in data layer 
 
 * [Video Link](https://youtu.be/4irCLtgiUtM)
+
+## #9 Finish data sources implementation in data layer 
+
+* [Video Link](https://youtu.be/BQ5SJYi-Cn4)
+
