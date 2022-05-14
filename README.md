@@ -40,3 +40,7 @@
 
 * [Video Link](https://youtu.be/AYpqeWniQ-0)
 
+## #11 Implement bloc in presentation layer - part 2
+
+* [Video Link](https://youtu.be/l27EBLytxxs)
+
