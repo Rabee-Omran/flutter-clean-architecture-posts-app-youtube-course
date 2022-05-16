@@ -44,3 +44,7 @@
 
 * [Video Link](https://youtu.be/l27EBLytxxs)
 
+## #12 Dependency injection
+
+* [Video Link](https://youtu.be/TjLpKnpKchw)
+

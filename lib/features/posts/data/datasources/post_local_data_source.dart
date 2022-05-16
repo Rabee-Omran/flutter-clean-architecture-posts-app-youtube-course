@@ -1,7 +1,7 @@
 import 'dart:convert';
 
-import 'package:clean_architecture_posts_app/core/error/exceptions.dart';
-import 'package:clean_architecture_posts_app/features/posts/data/models/post_model.dart';
+import '../../../../core/error/exceptions.dart';
+import '../models/post_model.dart';
 import 'package:dartz/dartz.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 

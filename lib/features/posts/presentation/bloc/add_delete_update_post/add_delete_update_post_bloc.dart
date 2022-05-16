@@ -1,9 +1,9 @@
 import 'package:bloc/bloc.dart';
-import 'package:clean_architecture_posts_app/core/strings/messages.dart';
-import 'package:clean_architecture_posts_app/features/posts/domain/entities/post.dart';
-import 'package:clean_architecture_posts_app/features/posts/domain/usecases/add_post.dart';
-import 'package:clean_architecture_posts_app/features/posts/domain/usecases/delete_post.dart';
-import 'package:clean_architecture_posts_app/features/posts/domain/usecases/update_post.dart';
+import '../../../../../core/strings/messages.dart';
+import '../../../domain/entities/post.dart';
+import '../../../domain/usecases/add_post.dart';
+import '../../../domain/usecases/delete_post.dart';
+import '../../../domain/usecases/update_post.dart';
 import 'package:dartz/dartz.dart';
 import 'package:equatable/equatable.dart';
 

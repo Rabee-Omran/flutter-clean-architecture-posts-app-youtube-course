@@ -1,4 +1,4 @@
-import 'package:clean_architecture_posts_app/features/posts/domain/entities/post.dart';
+import '../entities/post.dart';
 import 'package:dartz/dartz.dart';
 
 import '../../../../core/error/failures.dart';

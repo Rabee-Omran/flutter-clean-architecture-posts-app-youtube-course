@@ -1,4 +1,4 @@
-import 'package:clean_architecture_posts_app/features/posts/domain/entities/post.dart';
+import '../../domain/entities/post.dart';
 
 class PostModel extends Post {
   PostModel({required int id, required String title, required String body})
