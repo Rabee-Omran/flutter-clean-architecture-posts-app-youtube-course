@@ -2,15 +2,15 @@
 
 ## #1 Intro
 
-* [Video Link](https://www.youtube.com/watch?v=q7nFu7I6pRU&t=16s&ab_channel=RabeeOmran)
+* [Video Link](https://youtu.be/q7nFu7I6pRU)
 
 ## #2 Explain clean architecture
 
-* [Video Link](https://www.youtube.com/watch?v=U6esHHkTmhA&ab_channel=RabeeOmran)
+* [Video Link](https://youtu.be/U6esHHkTmhA)
 
 ## #3 Initial project , Add and explain required dependencies
 
-* [Video Link](https://www.youtube.com/watch?v=RySFXaF9Wr0&ab_channel=RabeeOmran)
+* [Video Link](https://youtu.be/RySFXaF9Wr0)
 
 ## #4 Create post entity and post repository in domain layer
 
@@ -48,3 +48,6 @@
 
 * [Video Link](https://youtu.be/TjLpKnpKchw)
 
+## #13 Create Posts Page user interface in pages in presentation layer
+
+* [Video Link](https://youtu.be/QfgxHcO9ZuQ)
