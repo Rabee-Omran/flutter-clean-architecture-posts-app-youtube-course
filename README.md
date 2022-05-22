@@ -55,3 +55,7 @@
 ## #14 Create Post add update page in pages in presentation layer - part 1
 
 * [Video Link](https://youtu.be/XXJUh6IRW-M)
+
+## #15 Create Post add update page in pages in presentation layer - part 2
+
+* [Video Link](https://youtu.be/Iu1_-8uzgdo)

@@ -1,6 +1,10 @@
+import 'package:clean_architecture_posts_app/features/posts/presentation/bloc/add_delete_update_post/add_delete_update_post_bloc.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_bloc/flutter_bloc.dart';
 
 import '../../../domain/entities/post.dart';
+import 'form_submit_btn.dart';
+import 'text_form_field_widget.dart';
 
 class FormWidget extends StatefulWidget {
   final bool isUpdatePost;
@@ -37,10 +41,33 @@ class _FormWidgetState extends State<FormWidget> {
           mainAxisAlignment: MainAxisAlignment.center,
           crossAxisAlignment: CrossAxisAlignment.center,
           children: [
-//Textfield - title
-//Textfield - body
-// submit btn (add - update)
+            TextFormFieldWidget(
+                name: "Title", multiLines: false, controller: _titleController),
+            TextFormFieldWidget(
+                name: "Body", multiLines: true, controller: _bodyController),
+            FormSubmitBtn(
+                isUpdatePost: widget.isUpdatePost,
+                onPressed: validateFormThenUpdateOrAddPost),
           ]),
     );
+  }
+
+  void validateFormThenUpdateOrAddPost() {
+    final isValid = _formKey.currentState!.validate();
+
+    if (isValid) {
+      final post = Post(
+          id: widget.isUpdatePost ? widget.post!.id : null,
+          title: _titleController.text,
+          body: _bodyController.text);
+
+      if (widget.isUpdatePost) {
+        BlocProvider.of<AddDeleteUpdatePostBloc>(context)
+            .add(UpdatePostEvent(post: post));
+      } else {
+        BlocProvider.of<AddDeleteUpdatePostBloc>(context)
+            .add(AddPostEvent(post: post));
+      }
+    }
   }
 }

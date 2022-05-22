@@ -18,7 +18,7 @@ class PostAddUpdatePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: _buildAppbar(),
-      body: _buildBody(context),
+      body: _buildBody(),
     );
   }
 
@@ -26,7 +26,7 @@ class PostAddUpdatePage extends StatelessWidget {
     return AppBar(title: Text(isUpdatePost ? "Edit Post" : "Add Post"));
   }
 
-  Widget _buildBody(BuildContext context) {
+  Widget _buildBody() {
     return Center(
       child: Padding(
           padding: EdgeInsets.all(10),
