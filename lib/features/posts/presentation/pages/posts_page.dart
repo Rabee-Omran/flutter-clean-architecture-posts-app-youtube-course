@@ -1,3 +1,4 @@
+import 'post_add_update_page.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
@@ -14,7 +15,7 @@ class PostsPage extends StatelessWidget {
     return Scaffold(
       appBar: _buildAppbar(),
       body: _buildBody(),
-      floatingActionButton: _buildFloatingBtn(),
+      floatingActionButton: _buildFloatingBtn(context),
     );
   }
 
@@ -44,9 +45,16 @@ class PostsPage extends StatelessWidget {
     BlocProvider.of<PostsBloc>(context).add(RefreshPostsEvent());
   }
 
-  Widget _buildFloatingBtn() {
+  Widget _buildFloatingBtn(BuildContext context) {
     return FloatingActionButton(
-      onPressed: () {},
+      onPressed: () {
+        Navigator.push(
+            context,
+            MaterialPageRoute(
+                builder: (_) => PostAddUpdatePage(
+                      isUpdatePost: false,
+                    )));
+      },
       child: Icon(Icons.add),
     );
   }
