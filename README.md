@@ -51,7 +51,7 @@
 ## #13 Create Posts Page user interface in pages in presentation layer
 
 * [Video Link](https://youtu.be/QfgxHcO9ZuQ)
-* 
+
 ## #14 Create Post add update page in pages in presentation layer - part 1
 
 * [Video Link](https://youtu.be/XXJUh6IRW-M)
